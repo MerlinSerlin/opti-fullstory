@@ -2,8 +2,6 @@ import Image from "next/image";
 import { createFullStoryUser } from "@/utils/fullstory-api-call";
 
 export default function Home() {
-  // Initialize FullStory
-  // initFullStory({ orgId: 'my-org-id' })
   createFullStoryUser();
 
   return (

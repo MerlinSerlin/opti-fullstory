@@ -4,8 +4,6 @@ const url = 'https://api.fullstory.com/v2/users';
 // Your FullStory API key
 const apiKey = process.env.FULL_STORY_API_KEY;
 
-console.log(apiKey);
-
 // User data to be created
 const userData = {
   email: 'user@example.com',
